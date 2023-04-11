@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background: url(/img/tic-tac-toe.png); */
+}
+.container{
+    width: 100%;
+    height: auto;
+    place-items: center;
+    position: absolute;
+}
+.about-section {
+    padding: 75px;
+    margin:  0 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 2px black dotted;
+    border-radius: 35px;
+    /* background-color: rgb(255, 255, 255); */
+    background: white;
+  }
+  .about-section p{
+   font-size: 20px;
+  }
+  .container h1{
+    /* position: absolute; */
+    text-align: center;
+    padding: 10px 10px;
+    color: rgb(237, 76, 51);
+    font-size: 50px;
+    /* top: 25px;
+    left: 40%; */
+  }
+  #thankyou{
+    font-weight: 600;
+  }
+
